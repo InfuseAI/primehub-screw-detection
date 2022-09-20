@@ -7,3 +7,9 @@ build:
 
 push:
 	docker push ${IMAGE_BASE}:${VERSION}
+
+save:
+	docker save ${IMAGE_BASE}:${VERSION} | gzip > ${VERSION}.tgz
+
+load:
+	gunzip -c ${VERSION}.tgz | docker load
