@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 # Project folder
-./data/arrange/
-./data/original/
+data/arrange/
+data/original/
