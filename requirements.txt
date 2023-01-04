@@ -1,2 +1,0 @@
-kaggle
-tensorflow-hub==0.12.0
