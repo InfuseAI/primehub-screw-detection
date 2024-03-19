@@ -1,4 +1,4 @@
-VERSION := screw-classification-v0.0.1
+VERSION := screw-classification-tf-282
 IMAGE_NAME_BASE=tensorflow2-prepackaged
 IMAGE_BASE=infuseaidev/${IMAGE_NAME_BASE}
 
