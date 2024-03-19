@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.9-slim
 COPY ./tensorflow2 /app
 WORKDIR /app
 RUN pip install --no-cache-dir --upgrade pip
